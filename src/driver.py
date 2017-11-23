@@ -28,7 +28,7 @@ class Driver(object):
         self.control = carControl.CarControl()
         
         self.steer_lock = 0.785398
-        self.max_speed = 100
+        self.max_speed = 500
         self.prev_rpm = None
     
     def init(self):
