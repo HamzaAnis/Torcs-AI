@@ -25,7 +25,7 @@ maxEpisodes=0;
 maxSteps=100000;
 serverPort=3001;
 hostName = "localhost"
-id = "championship2011"
+id = "SCR"
 stage = BaseDriver.tstage.WARMUP
 trackName = "unknown"
 
