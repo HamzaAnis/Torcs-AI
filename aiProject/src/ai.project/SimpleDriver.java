@@ -4,13 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class DriverControllerHelperE6 {
+public class SimpleDriver {
 
 	public static int memorySensorLength = 1;
-	// public static int[]  gearUp={9000,9000,9000,9500,9500,0};
-	public static int[]  gearUp={8500,8500,9000,9500,9500,0};
+	public static int[]  gearUp={9000,9000,9000,9500,9500,0};
 	public static int[]  gearDown={0,3300,6200,7000,7300,7700};
-//	public static int[]  gearDown={0,3000,3000,3000,3000,3000};
 
 	public static double maxSensorRangeProximity = 180;
 	public static List<Double> previousAngles = new ArrayList<Double>();

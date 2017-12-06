@@ -160,7 +160,7 @@ public class Client {
 		/*
 		 * Set default values for the options
 		 */
-		port = 3001;
+		port = 3003;
 		host = "localhost";
 		clientId = "SCR";
 		verbose = false;
