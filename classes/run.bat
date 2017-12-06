@@ -1,0 +1,1 @@
+java ai.project.Client ai.project.DriverControllerE6 port:3001 host:localhost id:SCR maxEpisodes:1 maxSteps:0 stage:2 blockerlevel:1

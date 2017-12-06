@@ -61,6 +61,7 @@ public class ParametersContainerE6 {
 		readInitialization();		
 	}
 	public void readInitialization(){
+					System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Client is running");
 		zigzaggerposition = rand.nextDouble()*2.0-1.0;
 		String [] parameters = param.split(", ");
 		for(String s : parameters){
@@ -68,17 +69,13 @@ public class ParametersContainerE6 {
 			numberOfParameters++;
 
 			parametersNames.add(currentLine[0]);
-			System.out.println(currentLine[0] + " " + currentLine[1]);
+			// System.out.println(currentLine[0] + " " + currentLine[1]);
 			getParameters().put(currentLine[0], Double.parseDouble(currentLine[1]));
 		}
 		
-		System.out.println("******** Note **********");
-		System.out.println("Project is running in " + getStage().toString() + " mode. " + stage.getModeDescription() + (getStage().compareTo(Stage.BLOCKER) == 0 ? level.getModeDescription() : ""));
-		
-		System.out.println("************************");
 		if(getStage().compareTo(Stage.BLOCKER)==0){//limit the maximum speed
 			maxNormalSpeed = level.ordinal()*30+240;
-			System.out.println(maxNormalSpeed);
+			// System.out.println(maxNormalSpeed);
 		}
 	}
 	
