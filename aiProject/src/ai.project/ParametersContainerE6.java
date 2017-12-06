@@ -16,17 +16,6 @@ import ai.project.Controller.Stage;
 public class ParametersContainerE6 {
 //	private boolean evolutionaryMode = false;
 	
-//	String param = "d: 107.9075418536763, lambda2: 4.753901789093406, -absSlip: 1.0, x2: 95.30302118020252, c: 114.1158700288616, b: 90.47991440926471, -absMinSpeed: 3.0, a: 50.95124925780534, lambda1: 0.01956501913690144, e2: 5.382771708803534, y2: 6.230728885167587, x1: -0.2300585760015009, -absRange: 3.0, y1: 2.011735390446281";//wheel2
-//	String param = "maxv: 107.9075418536763, maxAggV: 6.153901789093406, -absSlip: 1.0, MaximumSoar: 95.30302118020252, midv2: 114.1158700288616, midv1: 90.47991440926471, -absMinSpeed: 3.0, minv: 50.95124925780534, minAggV: 0.01956501913690144, maxAggTurn: 5.382771708803534, Maxsensors: 6.230728885167587, MinimumSoar: -0.2300585760015009, -absRange: 3.0, Minsensors: 2.011735390446281";//Brondehatch
-//	String param = "maxv: 107.9075418536763, maxAggV: 5.683901789093406, -absSlip: 1.0, MaximumSoar: 95.30302118020252, midv2: 114.1158700288616, midv1: 90.47991440926471, -absMinSpeed: 3.0, minv: 50.95124925780534, minAggV: 0.01956501913690144, maxAggTurn: 5.382771708803534, Maxsensors: 6.230728885167587, MinimumSoar: -0.2300585760015009, -absRange: 3.0, Minsensors: 2.011735390446281";//Etrack-3
-//	String param = "maxv: 107.9075418536763, maxAggV: 4.983901789093406, -absSlip: 1.0, MaximumSoar: 95.30302118020252, midv2: 114.1158700288616, midv1: 90.47991440926471, -absMinSpeed: 3.0, minv: 50.95124925780534, minAggV: 0.01956501913690144, maxAggTurn: 5.382771708803534, Maxsensors: 6.230728885167587, MinimumSoar: -0.2300585760015009, -absRange: 3.0, Minsensors: 2.011735390446281";//Eroad
-//	String param = "maxv: 107.9075418536763, maxAggV: 5.513901789093406, -absSlip: 1.0, MaximumSoar: 95.30302118020252, midv2: 114.1158700288616, midv1: 90.47991440926471, -absMinSpeed: 3.0, minv: 50.95124925780534, minAggV: 0.01956501913690144, maxAggTurn: 5.382771708803534, Maxsensors: 6.230728885167587, MinimumSoar: -0.2300585760015009, -absRange: 3.0, Minsensors: 2.011735390446281";//Street1
-//	String param = "maxv: 107.9075418536763, maxAggV: 5.513901789093406, -absSlip: 1.0, MaximumSoar: 95.30302118020252, midv2: 114.1158700288616, midv1: 90.47991440926471, -absMinSpeed: 3.0, minv: 50.95124925780534, minAggV: 0.01956501913690144, maxAggTurn: 5.382771708803534, Maxsensors: 6.230728885167587, MinimumSoar: -0.2300585760015009, -absRange: 3.0, Minsensors: 2.011735390446281";//Wheel1
-//	String param = "maxv: 107.9075418536763, maxAggV: 6.913901789093406, -absSlip: 1.0, MaximumSoar: 95.30302118020252, midv2: 114.1158700288616, midv1: 90.47991440926471, -absMinSpeed: 3.0, minv: 50.95124925780534, minAggV: 0.01956501913690144, maxAggTurn: 5.382771708803534, Maxsensors: 6.230728885167587, MinimumSoar: -0.2300585760015009, -absRange: 3.0, Minsensors: 2.011735390446281";//Alpine2
-//	String param = "d: 548.5510497961806, -absSlip: 1.0, b: 226.58876971975494, c: 29.244997998960944, lambda2: 4.825515039965515, lambda1: 0.038964770592202214, a: 15.782483161958048, y1: 3.2756651001846664, y2: 2.320791447366081, x2: -53.97800754060265, -absMinSpeed: 3.0, x1: 24.164074463994343, e2: 10.46954217357637, -absRange: 3.0";
-//	String param = "maxv: 107.9075418536763, maxAggV: 3.242568600336371, -absSlip: 1.0, MaximumSoar: 95.30302118020252, midv2: 114.1158700288616, midv1: 90.47991440926471, -absMinSpeed: 3.0, minv: 50.95124925780534, minAggV: 0.01478384777891481, maxAggTurn: 3.169069285437615, Maxsensors: 6.230728885167587, MinimumSoar: -0.2300585760015009, -absRange: 3.0, Minsensors: 2.011735390446281";//Brondehatch
-//	String param = "maxv: 107.9075418536763, maxAggV: 8.351090668086998, -absSlip: 1.0, MaximumSoar: 95.30302118020252, midv2: 114.1158700288616, midv1: 90.47991440926471, -absMinSpeed: 3.0, minv: 50.95124925780534, minAggV: 0.02459410715535047, maxAggTurn: 16.95975738979463, Maxsensors: 6.230728885167587, MinimumSoar: -0.2300585760015009, -absRange: 3.0, Minsensors: 2.011735390446281";//etrack2
-//	String param = "maxv: 107.9075418536763, maxAggV: 5.332868446716203, -absSlip: 1.0, MaximumSoar: 95.30302118020252, midv2: 114.1158700288616, midv1: 90.47991440926471, -absMinSpeed: 3.0, minv: 50.95124925780534, minAggV: 0.01971582329352539, maxAggTurn: 5.145771032002575, Minsensors: 2.011735390446281, MinimumSoar: -0.2300585760015009, -absRange: 3.0, Maxsensors: 6.230728885167587";//etrack3
 //	String param = "distOvertakex: 0.287, distOvertakey: 7.0, opSteer: 0.4, d: 187.9075418536763, lambda2: 6.9, -absSlip: 1.0, x2: 95.30302118020252, c: 164.1158700288616, b: 90.47991440926471, -absMinSpeed: 3.0, a: 50.95124925780534, lambda1: 0.01956501913690144, e2: 5.382771708803534, y2: 6.230728885167587, x1: -0.2300585760015009, -absRange: 3.0, y1: 2.011735390446281";//default-slowest
 	String param = "Omega1: 0.583432442, Omega2: 15.00001987, Omega3: 0.033898305084746, Omega4: 1.00010291102, Omega5: 10.0754, d: 187.9075418536763, lambda2: 7.032868446716203, -absSlip: 1.0, x2: 95.30302118020252, c: 164.1158700288616, b: 90.47991440926471, -absMinSpeed: 3.0, a: 50.95124925780534, lambda1: 0.01956501913690144, e2: 5.382771708803534, y2: 6.230728885167587, x1: -0.2300585760015009, -absRange: 3.0, y1: 2.011735390446281";//default-slowest
 	private Map<String, Double> parameters = new HashMap<String, Double>();
@@ -298,66 +287,6 @@ public class ParametersContainerE6 {
 	
 	public void frictionUpdater(int gear, MySensorModel sensors, double steer, double accel){
 		double RPM = sensors.getRPM();
-//		if(RPM < 7100.0 && RPM > 7050.0 && RPM > pRPM && Math.abs(steer) < 0.06 && (gear==2 || gear == 3) && accel >0.99){
-//			double slip = 0.0;
-//			slip=(sensors.getWheelSpinVelocity()[3] * DriverControllerHelperE6.wheelRadius[3] + sensors.getWheelSpinVelocity()[2] * DriverControllerHelperE6.wheelRadius[2])/2.0;
-//	    	slip = (sensors.getSpeed()/3.6)-slip;
-//	    	if(gear==2)
-//	    		slip*=0.67;
-//
-////	    	double fr = slip*1.04;
-//	    	setFriction(slip);
-//	    	double lambdaNew=(getFriction())*4.99;
-//	    	lambdaNew = Math.min(lambdaNew, 7.0);
-//	    	lambdaNew = Math.max(lambdaNew, 4.5);
-//	    	getParameters().put("lambda2", lambdaNew);
-//	    	
-//			updateAggrByTrackWidthAndDammage(sensors.getDamage()); 
-//			
-//		}
-//		
-//		if(RPM > 7000.0 && RPM < 8000.0){
-//			if(gear == 3 || gear == 2){// || gear == 4){
-//				if(RPM > pRPM && Math.abs(steer) < 0.06 && accel > 0.99){//friction calculation is invalid at the turns and ramps
-//			    	double slip = 0.0;
-//			    	slip=(sensors.getWheelSpinVelocity()[3] * DriverControllerHelperE6.wheelRadius[3] + sensors.getWheelSpinVelocity()[2] * DriverControllerHelperE6.wheelRadius[2])/2.0;
-//			    	slip = (sensors.getSpeed()/3.6)-slip;
-//					slipSampler += slip;
-//					slipSamplerNumber++;
-////					System.out.println(gear + ", " + RPM + ", " + accel + ", " + sensors.getZSpeed() + ", " +slip);
-////					System.out.println("NN estimation: " + NeuralNetwork.myNeuralNetworkFunction(new double[]{gear,RPM,sensors.getZSpeed(),slip}));
-////					saveMe(gear + ", " + RPM + ", " + accel + ", " + sensors.getZSpeed() + ", " +slip);
-//				}else{
-//					slipSampler = 0.0;
-//					slipSamplerNumber = 0.0;	
-//				}				
-//			}
-//		}else{
-//			slipSampler = 0.0;
-//			slipSamplerNumber = 0.0;					
-//		}
-//		
-//		if(slipSampler != 0.0 && slipSamplerNumber > 15){
-//			double fr=slipSampler/slipSamplerNumber;
-//			if(gear==2){
-//				fr*=(3.4/4.4);
-//			}
-//			
-//			setFriction(fr);
-//			
-//			slipSampler = 0.0;
-//			slipSamplerNumber = 0.0;
-//			double lambdaNew = getFriction()*4.4;
-//	    	lambdaNew = Math.min(lambdaNew, 7.0);
-//	    	lambdaNew = Math.max(lambdaNew, 4.5);
-//	    	
-//			getParameters().put("lambda2", lambdaNew);
-//			
-//			System.out.println("Friction: " + fr + ", " + lambdaNew);
-//			
-//			updateAggrByTrackWidthAndDammage(sensors.getDamage()); 
-//		}
-//    	System.out.println(sensors.getZSpeed());
 		
 		if(RPM > 7000.0 && RPM < 8000.0){
 			if(gear == 3 || gear == 2){// || gear == 4){

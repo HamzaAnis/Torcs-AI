@@ -4,38 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * @author mbonyadi
- *
- */
 public class DriverControllerHelperE6 {
-		
-//	public static List<String> parametersNames = Arrays.asList("Speed Slope", "Speed Shift", "Minimum Soar", "Maximum Soar");
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {-0.045,-60.0, 128.0, 190.0});//Arrays.asList();
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {-0.0386701, -60.47302, 115.197312, 145.494482});//Wheel 2
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {-0.034325809, -63.260505, 135.658577812, 156.9079397});//alpine 1
 
-//	public static List<String> parametersNames = Arrays.asList("minAggC", "maxAggC", "minAggV", "maxAggV", "Minimum Soar", "Maximum Soar", "Min sensors", "Max sensors");
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {0.78, 0.5, 30.0, 73.0, 100.0, 190.0, 1.0, 10.0});//Default
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {0.751306400318202, 0.64415891163038, 36.3582555334631, 85.4166303527724, 113.017540043282, 195.699494515522, 2.885480805335156, 11.0485699383691});//Alpin 2 new
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {0.78, 0.5, 30.0, 73.0, 100.0, 190.0, 1.0, 10.0});//Default
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {0.6866457559152911, 0.4975002783948544, 53.402433212397256, 63.37957061916983, 82.39090988426344, 201.88395832807404, 2.2317339374220695, 12.070598958186247});//Wheel-2 new
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {25.0, 1.0, .05, .000005, 100.0, 190.0, 1.0});//Default2
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {0.6811289315556591, 0.5248083762507209, 6.701300307587797, 71.76292280652007, 124.9762126037406, 198.63111512384128});//Optimized for GCSpeedway 1
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {0.7026262670644499, 0.5842304987957718, 16.482456268211614, 79.7845469667692, 101.45794818695263, 204.23110052812757});//Optimized for Wheel1
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {0.688749700751826, 0.515510611802827, 43.8001118701033, 78.2204811649894, 136.781624932788, 186.669845511425, 3.5436245182342});//Optimized for wheel2
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {0.6111889488876314, 0.4058498838987334, 27.434474267619027, 98.93284571516581, 104.5886341652808, 219.59133357143222});//Optimized wheel2 10 damage
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {0.5961866376374299, 0.5386892746314815, 17.174712804852295, 83.84132856451929, 102.94546484223423, 224.23832215146285});//Optimized for Froza
-//	public static List<Double> parametersValues = Arrays.asList(new Double [] {0.6691935105310137, 0.7449380220609059, 13.748318371237282, 73.41263467159703, 111.98369350715802 , 217.58908343342264});//Optimized for Alpine2
-//	public static List<Double> parametersValues = Arrays.asList(new Double []{0.6781902125919642, 0.4953233631206883, 58.84968402648872, 60.44019016167788, 133.25805193822336, 182.3068697036016, 1.0});
-	
 	public static int memorySensorLength = 1;
-	public static int[]  gearUp={9500,9500,9500,9500,9500,0};
-//	public static int[]  gearUp={8500,8500,8000,8000,8000,0};
+	public static int[]  gearUp={9000,9000,9000,9500,9500,0};
+	//public static int[]  gearUp={8500,8500,9000,9500,9500,0};
 	public static int[]  gearDown={0,3300,6200,7000,7300,7700};
 //	public static int[]  gearDown={0,3000,3000,3000,3000,3000};
 
-	public static double maxSensorRangeProximity = 200;
+	public static double maxSensorRangeProximity = 180;
 	public static List<Double> previousAngles = new ArrayList<Double>();
 	public static int maxSizeAnglesTrak = 10;
 

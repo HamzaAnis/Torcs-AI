@@ -1,11 +1,5 @@
 package ai.project;
 
-/**
- * Created by IntelliJ IDEA.
- * User: Administrator
- * Date: Mar 4, 2008
- * Time: 12:18:47 PM
- */
 public interface SensorModel {
 
     // basic information about your car and the track (you probably should take care of these somehow)

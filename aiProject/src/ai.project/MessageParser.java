@@ -4,12 +4,7 @@ import java.util.Hashtable;
 import java.util.Enumeration;
 import java.util.StringTokenizer;
 
-/**
- * Created by IntelliJ IDEA.
- * User: Administrator
- * Date: Feb 22, 2008
- * Time: 6:17:32 PM
- */
+
 public class MessageParser {
     // parses the message from the serverbot, and creates a table of
     // associated names and values of the readings
